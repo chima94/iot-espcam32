@@ -5,8 +5,9 @@ const Data = require('../../model/data')
 router.get('/', async (req, res) =>{
     
     try {
-        const data = await Data.findById("62444c1a7a5f6fcef511ab64")
-        res.json(data)
+        // const data = await Data.findById("62444c1a7a5f6fcef511ab64")
+        // res.json(data)
+        res.send("working")
     } catch (error) {
         console.log(error.message)
     }
