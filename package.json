@@ -4,7 +4,7 @@
   "description": "for iot",
   "main": "index.js",
   "scripts": {
-    "start": "node server",
+    "start": "index.js",
     "server": "nodemon server"
   },
   "author": "",
